@@ -1,0 +1,59 @@
+body {
+    background-color:lightgoldenrodyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+}
+
+.caixa {
+    max-width: 1000px;
+    margin: 36px auto;
+    padding: 28px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    
+}
+
+header {
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 24px;
+}
+
+.caixa2 {
+    border-radius: 2px;
+    padding: 20px;
+    background-color:lavender;
+    box-shadow: 0 6px 18px 0 lavender;
+    
+}
+/* bloco do texto com exatamente 10 linhas */
+.Texto {
+    line-height: 1.55;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.Texto p {
+    margin: 0
+}
+/* grid de 3 imagens igual tamanho */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 18px;
+}
+.galeria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10%;
+    display: block;
+}
